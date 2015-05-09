@@ -2,11 +2,11 @@
 
 svg Identicon Generator
 
-![example](examples/idcon.svg)
-![example](examples/hodor.svg)
-![example](examples/foobar.svg)
-![example](examples/yolo.svg)
-![example](examples/swag.svg)
+![example](https://cdn.rawgit.com/l3kn/idcon/master/examples/idcon.svg)
+![example](https://cdn.rawgit.com/l3kn/idcon/master/examples/hodor.svg)
+![example](https://cdn.rawgit.com/l3kn/idcon/master/examples/foobar.svg)
+![example](https://cdn.rawgit.com/l3kn/idcon/master/examples/yolo.svg)
+![example](https://cdn.rawgit.com/l3kn/idcon/master/examples/swag.svg)
 
 ## Installation
 
