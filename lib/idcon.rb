@@ -1,9 +1,8 @@
 require "idcon/version"
-require "idcon/hash"
 
 module Idcon
   def self.svg(string, dimension: 5, size: 10)
-    hash = Idcon::Hash::MD5.hash(string)
+    hash = Digest::MD5.hexdigest(string).to_i(16)
 
     color = []
 
