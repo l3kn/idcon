@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'idcon'
+
+case ARGV[0]
+when "png"
+  Idcon.png(ARGV[1])
+  puts "done"
+when "svg"
+  File.open("idcon.svg", 'w') { |file| file.write(Idcon.svg(ARGV[1])) }
+  puts "done"
+else
+  puts "please use this command in the right way:"
+  puts "idcon [png/svg] <string>"
+end
