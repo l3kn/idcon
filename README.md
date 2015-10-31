@@ -1,6 +1,6 @@
 # Idcon
 
-svg Identicon Generator
+svg (and png) Identicon Generator
 
 ![example](https://cdn.rawgit.com/l3kn/idcon/master/examples/idcon.svg)
 ![example](https://cdn.rawgit.com/l3kn/idcon/master/examples/hodor.svg)
