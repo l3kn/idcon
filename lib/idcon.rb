@@ -1,4 +1,5 @@
-require "idcon/version"
+require 'idcon/version'
+require 'rmagick'
 
 module Idcon
   def self.svg(string, dimension: 5, size: 10)
@@ -34,4 +35,12 @@ module Idcon
 
     svg << "</svg>"
   end
+
+  def self.png(string)
+    svg_string = self.svg(string)
+
+    img = Magick::Image.from_blob(svg_string) {self.format = "SVG"}.first
+    img.write "idcon.png"
+  end
+
 end
